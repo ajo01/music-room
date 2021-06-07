@@ -11,3 +11,5 @@ media
 .vscode/* 
 
 settings.py
+
+node_modules

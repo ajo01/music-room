@@ -5,7 +5,9 @@ Have pip installed
 main project:
 django-admin startproject music_controller 
 
-jango-admin startapp api
+django-admin startapp api
+
+django-admin startapp frontend
 
 cd music_controller
 python3 manage.py makemigrations
