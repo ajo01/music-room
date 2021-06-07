@@ -9,3 +9,5 @@ media
 .DS_Store
 
 .vscode/* 
+
+settings.py
