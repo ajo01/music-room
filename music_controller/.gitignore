@@ -14,5 +14,7 @@ settings.py
 
 node_modules
 
+migrations
+
 main.js.LICENSE.txt
 main.js
