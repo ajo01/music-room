@@ -8,6 +8,7 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
+import Room from './Room'
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
               </Route>
               <Route path="/join" component={RoomJoin}/>
               <Route path="/create" component={CreateRoom}/>
+              <Route path="/room/:roomCode" component={Room} />
           </Switch>
       </Router>
   );
