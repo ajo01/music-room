@@ -84,8 +84,8 @@ export default class CreateRoom extends Component {
               errorMsg: "Error updating room..."
             })
           }
+          this.props.updateCallback()
         })
-
     }
 
     renderCreateButtons() {
@@ -148,7 +148,7 @@ export default class CreateRoom extends Component {
               </FormHelperText>
               <RadioGroup
                 row
-                defaultValue="true"
+                defaultValue={this.props.guestCanPause.toString()}
                 onChange={this.handleGuestCanPauseChange}
               >
                 <FormControlLabel
