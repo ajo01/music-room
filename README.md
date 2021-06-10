@@ -1,5 +1,6 @@
 
 Web app made with Django Python, React, and Material UI
+Followed tutorial by Tech with Tim
 
 commands:
 Have pip installed
