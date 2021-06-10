@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Button, Grid, Typography} from "@material-ui/core";
-import { Link } from "react-router-dom";
 import CreateRoomPage from "./CreateRoom";
 
 export default class Room extends Component {
