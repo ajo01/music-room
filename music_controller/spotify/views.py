@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .credentials import REDIRECT_URI, CLIENT_ID, CLIENT_SECRET
 from rest_framework.views import APIView
 from rest_framework import status
-from rest_framework.Response import Response
+from rest_framework.response import Response
 from requests import Request, post
 
 # Create your views here.
